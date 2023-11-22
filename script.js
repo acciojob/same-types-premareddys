@@ -12,7 +12,7 @@ function isSameType(value1, value2) {
     return (isNaN(v1) && isNaN(v2)) || (!isNaN(v1) && !isNaN(v2));
 	}
 }*/
-	if(isSameType(value1) == isSameType(value2)){
+	if(isNumber(value1) == isNumber(value2)){
 		return "true";
 	}
 	else{
